@@ -14,6 +14,6 @@ $(function(){
        var element   = event.target;         // DOM element, in this example .owl-carousel
         var items     = event.item.count;     // Number of items
         var item      = event.item.index + 1;     // Position of the current item        
-      $('#counter').html(item+" ---------------------------------- "+items)
+      $('#counter').html(item+ `<span class="counter__line"></span> ` +items)
     }
     });

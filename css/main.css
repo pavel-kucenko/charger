@@ -265,4 +265,9 @@ body {
   line-height: 1.2;
   font-weight: 700;
 }
+.counter__line {
+  width: 164px;
+  height: 1px;
+  background-color: #979796;
+}
 /*# sourceMappingURL=main.css.map */
