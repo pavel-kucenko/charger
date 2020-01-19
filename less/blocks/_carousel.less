@@ -1,0 +1,54 @@
+.owl-nav {
+    color: #fff;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    outline: none;
+    &:hover {
+        color: rgba(255, 255, 255, 0.74);
+    }
+
+    &::after {
+        position: absolute;
+        top: 50%;
+        left: 17px;
+        transform: translate(100%, -50%);
+        width: 47px;
+        height: 2px;
+        background-color: #aa784c;
+        content: "";        
+    }
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    outline: none;
+    &:hover {
+        color: rgba(255, 255, 255, 0.74);
+    }
+
+    &::after {
+        position: absolute;
+        top: 50%;
+        right: 17px;
+        transform: translate(-100%, -50%);
+        width: 47px;
+        height: 2px;
+        background-color: #aa784c;
+        content: "";
+    }
+}
+
+.counter {  
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+} 
